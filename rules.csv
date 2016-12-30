@@ -1,0 +1,81 @@
+"","rules","support","confidence","lift"
+"1","{Seasons=0.33,Surgeries=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"3","{Seasons=0.33,Accident/trauma=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"10","{Seasons=1,fevers in past year=-1,alcohol consumption=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"11","{Seasons=1,Surgeries=1,fevers in past year=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"12","{Seasons=1,fevers in past year=-1,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"13","{Seasons=1,Accident/trauma=0,fevers in past year=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"14","{Accident/trauma=0,fevers in past year=-1,alcohol consumption=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"15","{fevers in past year=-1,alcohol consumption=1,hours spent sitting=less than 8 hours} => {diagnosis=O}",0.01,1,8.33333333333333
+"16","{Childish disease=0,alcohol consumption=0.6,smoking habbit=0} => {diagnosis=O}",0.02,1,8.33333333333333
+"17","{Seasons=1,Childish disease=0,alcohol consumption=0.6} => {diagnosis=O}",0.01,1,8.33333333333333
+"18","{Childish disease=0,Accident/trauma=0,alcohol consumption=0.6} => {diagnosis=O}",0.02,1,8.33333333333333
+"19","{Seasons=-1,Childish disease=0,smoking habbit=0} => {diagnosis=O}",0.01,1,8.33333333333333
+"20","{Childish disease=0,smoking habbit=0,hours spent sitting=less than 8 hours} => {diagnosis=O}",0.02,1,8.33333333333333
+"21","{Seasons=-1,Childish disease=0,Accident/trauma=0} => {diagnosis=O}",0.01,1,8.33333333333333
+"22","{Seasons=1,alcohol consumption=0.6,smoking habbit=-1} => {diagnosis=O}",0.02,1,8.33333333333333
+"23","{Seasons=1,Accident/trauma=1,fevers in past year=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"24","{Seasons=1,Age=30-36,fevers in past year=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"25","{Seasons=1,fevers in past year=1,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"52","{Seasons=0.33,Accident/trauma=0,fevers in past year=0,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"80","{Age=30-36,Accident/trauma=0,Surgeries=1,fevers in past year=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"81","{Age=30-36,Surgeries=1,fevers in past year=-1,hours spent sitting=less than 8 hours} => {diagnosis=O}",0.01,1,8.33333333333333
+"82","{Age=30-36,Childish disease=1,Accident/trauma=0,fevers in past year=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"105","{Seasons=1,Childish disease=0,Surgeries=1,smoking habbit=0} => {diagnosis=O}",0.01,1,8.33333333333333
+"106","{Seasons=1,Age=30-36,Childish disease=0,smoking habbit=0} => {diagnosis=O}",0.01,1,8.33333333333333
+"107","{Seasons=1,Childish disease=0,fevers in past year=0,smoking habbit=0} => {diagnosis=O}",0.01,1,8.33333333333333
+"109","{Childish disease=0,Accident/trauma=0,Surgeries=1,smoking habbit=0} => {diagnosis=O}",0.02,1,8.33333333333333
+"111","{Age=30-36,Childish disease=0,Accident/trauma=0,smoking habbit=0} => {diagnosis=O}",0.02,1,8.33333333333333
+"113","{Childish disease=0,Accident/trauma=0,fevers in past year=0,smoking habbit=0} => {diagnosis=O}",0.02,1,8.33333333333333
+"120","{Seasons=-1,fevers in past year=0,alcohol consumption=0.6,smoking habbit=0} => {diagnosis=O}",0.01,1,8.33333333333333
+"121","{Seasons=-1,Accident/trauma=0,fevers in past year=0,alcohol consumption=0.6} => {diagnosis=O}",0.01,1,8.33333333333333
+"125","{Seasons=1,Accident/trauma=1,Surgeries=0,alcohol consumption=0.6} => {diagnosis=O}",0.01,1,8.33333333333333
+"129","{Seasons=1,Accident/trauma=0,Surgeries=1,alcohol consumption=0.6} => {diagnosis=O}",0.02,1,8.33333333333333
+"135","{Accident/trauma=0,Surgeries=1,alcohol consumption=0.6,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"136","{Accident/trauma=0,Surgeries=1,fevers in past year=0,alcohol consumption=0.6} => {diagnosis=O}",0.03,1,8.33333333333333
+"137","{Accident/trauma=0,fevers in past year=0,alcohol consumption=0.6,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"138","{Seasons=-0.33,fevers in past year=1,alcohol consumption=1,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"139","{Seasons=-0.33,Surgeries=0,fevers in past year=1,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"140","{Seasons=-0.33,Accident/trauma=0,fevers in past year=1,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"141","{Age=30-36,Surgeries=0,fevers in past year=1,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"142","{Seasons=1,Age=30-36,Accident/trauma=0,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"143","{Seasons=-0.33,Surgeries=0,alcohol consumption=1,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"144","{Seasons=-0.33,Accident/trauma=0,alcohol consumption=1,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"145","{Seasons=-0.33,Accident/trauma=0,Surgeries=0,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"146","{Seasons=-0.33,Age=30-36,Accident/trauma=0,smoking habbit=1} => {diagnosis=O}",0.02,1,8.33333333333333
+"147","{Age=30-36,Surgeries=0,alcohol consumption=0.8,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"148","{Age=30-36,Accident/trauma=0,alcohol consumption=0.8,smoking habbit=1} => {diagnosis=O}",0.02,1,8.33333333333333
+"149","{Seasons=-1,Age=30-36,fevers in past year=0,smoking habbit=0} => {diagnosis=O}",0.01,1,8.33333333333333
+"150","{Seasons=1,Accident/trauma=0,Surgeries=1,smoking habbit=0} => {diagnosis=O}",0.01,1,8.33333333333333
+"163","{Seasons=1,Childish disease=1,Accident/trauma=0,alcohol consumption=0.8} => {diagnosis=O}",0.02,1,8.33333333333333
+"165","{Seasons=-0.33,Age=30-36,Accident/trauma=0,alcohol consumption=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"270","{Age=30-36,Childish disease=1,fevers in past year=-1,smoking habbit=-1,hours spent sitting=less than 8 hours} => {diagnosis=O}",0.01,1,8.33333333333333
+"424","{Seasons=1,Surgeries=0,fevers in past year=0,alcohol consumption=0.8,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"425","{Seasons=1,Childish disease=1,Surgeries=0,alcohol consumption=0.8,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"427","{Seasons=1,Accident/trauma=0,fevers in past year=0,alcohol consumption=0.8,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"434","{Seasons=-0.33,Age=30-36,fevers in past year=0,alcohol consumption=0.8,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"453","{Accident/trauma=0,Surgeries=0,fevers in past year=0,alcohol consumption=0.8,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"454","{Childish disease=1,Accident/trauma=0,Surgeries=0,alcohol consumption=0.8,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"459","{Age=30-36,Accident/trauma=0,Surgeries=1,fevers in past year=0,smoking habbit=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"486","{Seasons=1,Age=30-36,Accident/trauma=0,Surgeries=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"487","{Seasons=1,Accident/trauma=0,Surgeries=0,fevers in past year=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"489","{Seasons=1,Childish disease=1,Surgeries=1,alcohol consumption=0.8,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"495","{Seasons=1,Age=30-36,Surgeries=1,alcohol consumption=1,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"496","{Seasons=1,Age=30-36,Accident/trauma=0,Surgeries=1,alcohol consumption=1} => {diagnosis=O}",0.01,1,8.33333333333333
+"498","{Seasons=1,Age=30-36,Childish disease=1,Accident/trauma=0,Surgeries=1} => {diagnosis=O}",0.03,1,8.33333333333333
+"499","{Seasons=-0.33,Age=30-36,Accident/trauma=1,Surgeries=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"500","{Seasons=-0.33,Accident/trauma=1,Surgeries=0,alcohol consumption=0.8,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"501","{Seasons=-0.33,Age=30-36,Surgeries=0,fevers in past year=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"502","{Seasons=-0.33,Age=30-36,Childish disease=1,Surgeries=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"503","{Seasons=-0.33,Surgeries=0,fevers in past year=0,alcohol consumption=0.8,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"504","{Seasons=-0.33,Childish disease=1,Surgeries=0,alcohol consumption=0.8,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"506","{Seasons=-0.33,Age=30-36,Surgeries=0,alcohol consumption=1,hours spent sitting=less than 8 hours} => {diagnosis=O}",0.01,1,8.33333333333333
+"509","{Seasons=-0.33,Accident/trauma=1,Surgeries=0,fevers in past year=0,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"510","{Seasons=-0.33,Accident/trauma=1,Surgeries=0,smoking habbit=-1,hours spent sitting=less than 8 hours} => {diagnosis=O}",0.01,1,8.33333333333333
+"511","{Seasons=-0.33,Age=30-36,Surgeries=0,fevers in past year=0,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"512","{Age=30-36,Accident/trauma=0,Surgeries=0,fevers in past year=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"513","{Age=30-36,Childish disease=1,Accident/trauma=0,Surgeries=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"925","{Seasons=-0.33,Age=30-36,Accident/trauma=1,fevers in past year=0,alcohol consumption=0.8,smoking habbit=-1} => {diagnosis=O}",0.01,1,8.33333333333333
+"926","{Seasons=-0.33,Age=30-36,Accident/trauma=1,fevers in past year=0,alcohol consumption=0.8,hours spent sitting=less than 8 hours} => {diagnosis=O}",0.01,1,8.33333333333333
+"927","{Seasons=-0.33,Age=30-36,Childish disease=1,Accident/trauma=1,fevers in past year=0,alcohol consumption=0.8} => {diagnosis=O}",0.01,1,8.33333333333333
+"164","{Seasons=1,Age=30-36,Accident/trauma=0,Surgeries=1} => {diagnosis=O}",0.04,0.8,6.66666666666667
