@@ -1,2 +1,2 @@
 # friendly-octo-disco
-association rule mining
+Association Rule Mining
